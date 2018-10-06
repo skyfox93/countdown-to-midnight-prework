@@ -6,15 +6,15 @@ def countdown(num)
   puts "#{num} SECONDS"
     num-=1
   end
-  "HAPPY NEW YEAR"
+  "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep(num)
   count=num;
   while num>0 do
     puts "#{num} SECONDS"
-    sleep(num)
+    sleep(1)
     num-=1;
   end
-  "HAPPY NEW YEAR"
+  "HAPPY NEW YEAR!"
 end

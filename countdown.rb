@@ -5,4 +5,5 @@ def countdown(num)
   while num>0
   "#{number} SECONDS"
   end
+  "HAPPY NEW YEAR"
 end

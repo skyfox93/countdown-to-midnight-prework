@@ -11,7 +11,7 @@ end
 
 def countdown_with_sleep(num)
   count=num;
-  while num>0
+  while num>0 do
     "#{number} SECONDS"
     sleep(num)
     num-=1;

@@ -12,7 +12,7 @@ end
 def countdown_with_sleep(num)
   count=num;
   while num>0 do
-    puts "#{num} SECONDS"
+    puts "#{num} SECOND(S)!"
     sleep(1)
     num-=1;
   end
